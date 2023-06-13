@@ -9,18 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("tutoring")
+        NavigationStack {
+            VStack {
+                Text("Home")
+            }
+            .toolbar {
+                ToolbarItemGroup(placement: .status) {
+                    NavigationLink(destination: ToDo()) {
+                        Text("Click to visit To-Do list")
+                    }
+                }
+                
+            }
+            .navigationTitle("Home")
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }
