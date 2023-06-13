@@ -15,6 +15,7 @@
 		F1F9DC572A37761B00373330 /* KWK_group_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9DC562A37761B00373330 /* KWK_group_projectTests.swift */; };
 		F1F9DC612A37761B00373330 /* KWK_group_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9DC602A37761B00373330 /* KWK_group_projectUITests.swift */; };
 		F1F9DC632A37761B00373330 /* KWK_group_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9DC622A37761B00373330 /* KWK_group_projectUITestsLaunchTests.swift */; };
+		F1F9DC702A38F80E00373330 /* KWK project - resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F9DC6F2A38F80E00373330 /* KWK project - resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F1F9DC5C2A37761B00373330 /* KWK group projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK group projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F9DC602A37761B00373330 /* KWK_group_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_group_projectUITests.swift; sourceTree = "<group>"; };
 		F1F9DC622A37761B00373330 /* KWK_group_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_group_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1F9DC6F2A38F80E00373330 /* KWK project - resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KWK project - resources.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				F1F9DC442A37761900373330 /* KWK_group_projectApp.swift */,
 				F1F9DC462A37761900373330 /* ContentView.swift */,
+				F1F9DC6F2A38F80E00373330 /* KWK project - resources.swift */,
 				F1F9DC482A37761B00373330 /* Assets.xcassets */,
 				F1F9DC4A2A37761B00373330 /* KWK_group_project.entitlements */,
 				F1F9DC4B2A37761B00373330 /* Preview Content */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F9DC702A38F80E00373330 /* KWK project - resources.swift in Sources */,
 				06FDBE932A38AF300068980E /* ToDo.swift in Sources */,
 				F1F9DC472A37761900373330 /* ContentView.swift in Sources */,
 				F1F9DC452A37761900373330 /* KWK_group_projectApp.swift in Sources */,
@@ -419,7 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KWK group project/Preview Content\"";
-				DEVELOPMENT_TEAM = 3757QB9Q92;
+				DEVELOPMENT_TEAM = TXH9C5ZMKB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -457,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KWK group project/Preview Content\"";
-				DEVELOPMENT_TEAM = 3757QB9Q92;
+				DEVELOPMENT_TEAM = TXH9C5ZMKB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
