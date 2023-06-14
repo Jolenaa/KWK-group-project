@@ -11,17 +11,20 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Home")
+                Text("This is the main Page")
             }
             .toolbar {
                 ToolbarItemGroup(placement: .status) {
                     NavigationLink(destination: ToDo()) {
                         Text("Click to visit To-Do list")
+                    
                     }
                 }
-                
             }
+            
             .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(false)
         }
     }
     
