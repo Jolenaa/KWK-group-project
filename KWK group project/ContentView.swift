@@ -21,6 +21,9 @@ struct ContentView: View {
                     NavigationLink(destination: ToDo()) {
                         Text("Click to visit To-Do list")
                     }
+                    NavigationLink(destination: ResourcesView()) {
+                        Text("Click to visit Resources list")
+                    }
                 }
             }
             

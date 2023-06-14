@@ -79,7 +79,6 @@
 		F1F9DC382A37761900373330 = {
 			isa = PBXGroup;
 			children = (
-				06FDBE922A38AF300068980E /* ToDo.swift */,
 				F1F9DC432A37761900373330 /* KWK group project */,
 				F1F9DC552A37761B00373330 /* KWK group projectTests */,
 				F1F9DC5F2A37761B00373330 /* KWK group projectUITests */,
@@ -100,6 +99,7 @@
 		F1F9DC432A37761900373330 /* KWK group project */ = {
 			isa = PBXGroup;
 			children = (
+				06FDBE922A38AF300068980E /* ToDo.swift */,
 				F1F9DC442A37761900373330 /* KWK_group_projectApp.swift */,
 				F1F9DC462A37761900373330 /* ContentView.swift */,
 				F1F9DC6F2A38F80E00373330 /* ResourcesView.swift */,

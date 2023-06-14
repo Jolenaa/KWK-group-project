@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct KWK_project___resources: View {
+struct ResourcesView: View {
     var body: some View {
        
         NavigationStack {
@@ -31,8 +31,8 @@ struct KWK_project___resources: View {
             }
         }
 
-struct KWK_project___resources_Previews: PreviewProvider {
+struct ResourcesView_Previews: PreviewProvider {
     static var previews: some View {
-        KWK_project___resources()
+        ResourcesView()
     }
 }
