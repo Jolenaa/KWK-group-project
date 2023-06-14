@@ -6,10 +6,38 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ToDo: View {
+    @ObservedObject var taskStore = TaskStore ()
+    @State var newnewTask : String = ""
+    var searchBar: some View {
+        HStack {
+            TextField("Insert new task", text: self.$newnewTask)
+            Button(action: self.addnewnewTask, label: {Text("Add New")
+                
+            })
+            
+        }
+    }
+    
+    func addnewnewTask () {
+        taskStore.tasks.append(Task: (id:String(taskStore.tasks.count + 1), newTask:newnewTask))
+        self.newnewTask = ""
+    }
+    
+    
+    
     var body: some View {
-        Text("This is the To-Do page")
+        NavigationView {
+            VStack {
+                searchBar.padding ()
+                List (self.taskStore.tasks){
+                    task in
+                    Text(task.newTask)
+                }.navigationTitle("My To-Do List")
+            }
+        }
     }
 }
 
