@@ -17,7 +17,7 @@ struct KWK_project___resources: View {
                     .fontWeight(.black)
                 Link("Check out Mind", destination: URL(string: "https://www.mind.org.uk/information-support/tips-for-everyday-living/wellbeing/wellbeing/")!)
                 Link("Check out The American Pyscological Association", destination: URL(string: "https://www.apa.org/monitor/2023/01/trends-improving-youth-mental-health")!)
-                Link("Check out quiz to test your knowledge of mental health", destination: URL(string: "https://www.cdc.gov/mentalhealth/quiz/index.htm")!)
+                Link("A quiz to test your knowledge of mental health", destination: URL(string: "https://www.cdc.gov/mentalhealth/quiz/index.htm")!)
                     
                     
                 }
